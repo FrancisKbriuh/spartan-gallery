@@ -32,4 +32,8 @@ public class ArtPieceService {
         artPiece.setBuyer(buyer);
         return artPieceRepository.save(artPiece);
     }
+
+    public List<ArtPiece> searchArtPieces(String keyword) {
+        return null;
+    }
 }
